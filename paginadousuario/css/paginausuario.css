@@ -1,0 +1,832 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: #E5E5E5;
+}
+
+
+
+.topo-acima-da-imagem{
+    background-color: #ffffff;
+    width: 100%;
+    height: 115px;
+}
+
+.cabeçalho{
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    
+    padding: 24px;
+}
+
+.imagem-alura-geeks{
+    position: relative;
+    display: inline-block;
+    flex-direction: row;
+    top: 32px;
+    left: 152px;
+}
+
+.search{
+    position: relative;
+    color: #A2A2A2;
+    display:inline-block;
+    flex-direction: row;
+    background-color: #F5F5F5;
+    width: 393px;
+    height: 40px;
+    top: 11px;
+    border-radius: 20px;
+    Padding: 8px, 16px, 8px, 16px;
+    text-align: left 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 10px 6px;
+    left: 162px;
+    border-color: rgba(240, 248, 255, 0);
+    
+}
+
+.buscar{
+    position: relative;
+    left: 75px;
+    top: 10px;
+    height: 40px;
+    width: 45px;
+    border-radius: 10px;
+    cursor:pointer;
+    background-color: rgba(255, 255, 255, 0);
+    color: #eaf2fd00;
+    border-color: #ffffff00;
+    
+}
+
+.imagem-lupa{
+    position: relative;
+    left: 115px;
+    top: 19px;
+}
+
+
+.botao-login{
+    position: relative;
+    left: 1200px;
+    bottom: 45px;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffff;
+    color:#2A7AE4;
+    border-color: #2A7AE4;
+    width: 182px;
+    height: 51px;
+    cursor: pointer;
+    
+}
+
+
+.imagem-hero{
+    position: relative;
+    left: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 1210px;
+    height: 352px;
+    background-image:url('file:///C:/xampp/htdocs/alura/desafioalurafrontend/image/hero-sem-texto.svg');
+}
+
+.titulo-imagem
+{
+    position: relative;
+    display: inline-block;
+    flex:row;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    left: 173px;
+    font-weight: 700, bold;
+    font-size: 52px;
+    top: 170px;
+    
+}
+
+.texto-imagem
+{   top: 186px;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    position: relative;
+    left: 173px;
+    font-size: 22px;
+    
+
+}
+
+.button-ver-consoles
+{
+    top: 202px;
+
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+font-size: 16px;
+width: 131px;
+height: 55px;
+padding: 16px;
+gap: 10px;
+background-color: #2A7AE4;
+color: #ffffff;
+position: relative;
+left: 173px;
+cursor: pointer;
+}
+
+.botao-view-all{
+    position: relative;
+    left: 1107px;
+    color:#2A7AE4;
+    background-color:#ffffff00;
+    border-color: #ffffff00;
+    font-weight: 400;
+    
+}
+.botao-view-all:hover{
+border-bottom: 0.4px solid #f30000;
+}
+
+
+
+
+/*section*/
+.linha-de-produto01-topo{
+    width: 150px;
+    position: relative;
+    left: 100px;
+    
+}
+
+.titulo-produtos
+{ position: relative;
+   font-family: 'Raleway', sans-serif;
+   display: flex;
+   flex-direction: row;
+   font-weight:700, bold;
+   font-size: 32px;
+   top: 10px;
+}
+
+.linha-deproduto01-produtos{
+    display: flex;
+    
+}
+.imagens{
+    position: relative;
+    left: 85px;
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    cursor: pointer;
+    
+}
+.produtos{
+    display: flex;
+    flex-direction: column;
+}
+
+.preço-produto,.texto-produto{
+    position: relative;
+    left: 100px;
+
+}
+
+.preço-produto{
+    font-family: 'Raleway', sans-serif;
+    color:#464646;
+    font-weight: 700px,bold;
+    font-style: normal;
+    font-size: 16px;
+}
+.ver-produto{
+    position: relative;
+    left: 50px;
+    color: #2A7AE4;
+    width: 91px;
+    height: 19px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700, bold;
+    
+    
+}
+
+.box{
+    width: 1519px;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    background-color: #EAF2FD;
+}
+
+.links-finais{
+    position: relative;
+    left: 440px;
+    font-weight: 500,normal;
+    color: #464646;
+    line-height: 40px;
+    height: 234px;
+    width: 176px;
+    
+}
+
+.box-image{
+    position: relative;
+    top: 50px;
+    left: 152px;
+}
+
+
+.form{
+    width: 300px;
+    position: relative;
+    left: 728px;
+    bottom: 230px;
+    
+}
+
+.title-fale-conosco{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700,bold;
+    font-size: 16px;
+    line-height: 19px;    
+}
+
+.input-nome{
+    width: 560px;
+    height: 56px;
+    border-radius: 4px;
+    
+}
+
+.text-area{
+    position: relative;
+    top: 16px;
+    width: 560px;
+    height: 82px;
+    border-radius: 4px;
+    border-color: #eaf2fd00;
+    font-size: 20px;
+}
+
+.desenvolvido{
+    position: relative;
+    text-align: center;
+    top: 38px;
+    font-weight: 500,medium;
+}
+
+.submit-text{
+    position:relative;
+    top: 30px;
+    width: 166px;
+    height: 51px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 400,regular;
+    font-style: normal;
+    font-size: 16px;
+    background-color: #2A7AE4;
+    color: white;
+}
+
+footer{
+    position: relative;
+    top: 30px;
+    height: 102px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 500,Medium;
+    font-style: normal;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+/* css da propria pagina*/
+
+
+
+
+
+.circulo{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 250px;
+    background-color: #c4c4c43c;
+    width: 384px;
+    height: 371px;
+    border-radius: 50%;
+    top: 30px;
+    border-color: white;
+    cursor: pointer;
+    
+}
+
+
+.dados-usuario-a-mostra{
+    width: 434px;
+    height: 40px;
+    background-color: rgba(175, 175, 175, 0.644);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 800px;
+    bottom: 00px;
+    border-radius: 4px;
+    align-items: left;
+    
+}
+.dados-usuario-a-mostra-redes-sociais{
+    width: 434px;
+    height: 140px;
+    background-color: rgba(175, 175, 175, 0.644);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 800px;
+    bottom: 00px;
+    border-radius: 4px;
+    align-items: left;
+    display: inline-block;
+
+}
+
+.titulo-principal{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 800px;
+    width: 30%;
+    bottom: 350px;
+    font-family: 'Raleway',sans-serif;
+    font-size: 32px;
+    
+}
+
+.usuario-nome{
+  
+bottom: 300px;
+}
+
+.usuario-email{
+    bottom: 250px;
+
+}
+
+.usuario-redes-sociais{
+  bottom: 200px;
+
+}
+
+.subtitulos{
+    position: relative;
+    bottom: 30px;
+    font-family: 'raleway',sans-serif;
+    font-size: 16px;
+}
+
+.imagem-usuario{
+    width: 200px;
+    position: relative;
+    left: 90px;
+    bottom: 10px;
+}
+
+.alinhar-palavras-nome{
+    position: relative;
+    right: 30px;
+
+}
+
+
+.alinhar-palavras-email{
+    position: relative;
+    right: 30px;
+
+}
+
+.alinhar-palavras-redes-sociais{
+    position: relative;
+    left:50px;
+    bottom: 15px;
+    font-size: 20px;
+}
+
+
+.alinhar-palavras-redes-sociais-2{
+    position: relative;
+    left:260px;
+    bottom: 170px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+/*editar logo*/
+
+
+.imagems-logo-facebook,.imagems-logo-twitter,.imagems-logo-instagram{
+    position: relative;
+    width: 25px;
+    left: 100px;
+    bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.drop-zone {
+    max-width: 283px;
+    width: 283px;
+    height: 140px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    color: #cccccc;
+    border: 4px solid #ff000000;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .imagem-quadrado{
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      left: 140px;
+      bottom: 43px;
+      
+  }
+
+  .drio_zone_prompt{
+      color: rgba(255, 255, 255, 0);
+  }
+  
+  .drop-zone--over {
+    border-style: solid;
+    border-color: yellow;
+  }
+  
+  .drop-zone__input {
+    display: none;
+  }
+  
+  .drop-zone__thumb {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #7b4848;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .drop-zone__thumb::after {
+    content: attr(data-label);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 1000px;
+    padding: 5px 0;
+    color: #ff000000;
+    background: rgba(255, 0, 0, 0);
+    font-size: 14px;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*mobile*/
+
+
+
+
+
+
+  @media screen and (max-width:360px){
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        display:grid;
+
+    }
+    main{
+        width: auto;
+    }
+
+    p, button{
+        font-family: 'Raleway', sans-serif;
+    }
+  
+
+    body{
+        width: auto;
+        font-size: 100%;
+        background-color: #E5E5E5;
+    }
+    
+    .cabeçalho{
+        background-color: #ffffff;
+        width: 1440px;
+    }
+    .topo-acima-da-imagem{
+        background-color: #ffffff;
+        width: 140px;
+    }
+    header .imagem-alura-geeks{
+        top: 30px;
+        
+        position: relative;
+        width: 360px;
+    }
+
+    .search{
+        width:80px;
+        height: 95px;
+        position: absolute;
+        bottom: 30px;
+        left: 1100px;
+        top: 67px;
+    }
+
+    .botao-login{
+        position: absolute;
+        bottom: 450px;
+        left:  670px;
+        width: 300px;
+        height: 80px;
+        font-size: 64px;
+        top: 80px;
+    }
+
+    .imagem-lupa{
+        width: 30%;
+        position: absolute;
+        left: 1100px;
+        top: 65px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .box{
+        align-items: center;
+        width: 1440px;
+        height: 3500px;
+        top: 300px;
+    }
+    
+    .box-image{
+        top: 60px;
+        position: relative;
+        width: 900px;
+        bottom: 300px;
+        left: 350px;
+    }
+    .links-finais{
+        font-size: 90px;
+        width: 850px;  
+        top: 180px;
+        position: relative;
+        
+    }
+     .imagem-alura-geeks{
+            top: 30px;    
+            position: relative;
+            width: 360px;
+        }
+    
+    
+    
+    
+        .form{
+            width: 300px;
+            height: 300px;
+        }
+        .title-fale-conosco{
+            font-size: 90px;
+            position: relative;
+            top: 500px;
+            right: 700px;
+        }
+    
+    
+        .label-float{
+            position: relative;
+            top: 600px;
+            right: 700px;
+            font-size: 60px;
+        }
+        .input-nome{
+            height: 256px;
+            width: 1400px;
+            position: relative;
+            
+        }
+        .text-area{
+            height: 256px;
+            width: 1400px;
+            position: relative;
+            font-size: 60px;}
+        .submit-text{
+            top: 700px;
+            width: 800px;
+            height: 200px;
+            font-size: 80px;
+            right: 727.8px;
+        }
+    
+    
+    
+    footer
+    {
+        width: 1440px;
+        font-size: 60px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*LABEL*/
+    
+    .label-float{
+        position: relative;
+    padding-top:6px;
+    }
+    
+    .label-float input{
+      border: 0;
+      border-bottom: 2px solid lightgrey;
+      outline: none;
+      min-width: 180px;
+      font-size: 60PX;
+      transition: all .3s ease-out;
+      -webkit-transition: all .3s ease-out;
+      -moz-transition: all .3s ease-out;
+      -webkit-appearance:none;
+      border-radius: 0;
+    }
+    
+    .label-float input:focus{
+      border-bottom: 2px solid #3db239;
+    }
+    
+    .label-float input::placeholder{
+      color:transparent;
+    }
+    
+    .label-float label{
+      pointer-events: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-top: 13px;
+      transition: all .3s ease-out;
+      -webkit-transition: all .3s ease-out;
+      -moz-transition: all .3s ease-out;
+    }
+    
+    .label-float input:focus{
+      color: rgb(0, 0, 0);
+    }
+    
+    
+    .label-float input:required:invalid + label{
+      color: rgb(114, 94, 94);
+    }
+    
+    
+    .label-float input:focus + label,
+    .label-float input:not(:placeholder-shown) + label{
+      font-size: 60px;
+      margin-top: 0;
+      color: #25b338;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+  }

@@ -1,0 +1,729 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: #E5E5E5;
+}
+
+
+
+.topo-acima-da-imagem{
+    background-color: #ffffff;
+    width: 100%;
+    height: 115px;
+}
+
+.cabeçalho{
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    
+    padding: 24px;
+}
+
+.imagem-alura-geeks{
+    position: relative;
+    display: inline-block;
+    flex-direction: row;
+    top: 32px;
+    left: 152px;
+}
+
+.search{
+    position: relative;
+    color: #A2A2A2;
+    display:inline-block;
+    flex-direction: row;
+    background-color: #F5F5F5;
+    width: 393px;
+    height: 40px;
+    top: 11px;
+    border-radius: 20px;
+    Padding: 8px, 16px, 8px, 16px;
+    text-align: left 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 10px 6px;
+    left: 162px;
+    border-color: rgba(240, 248, 255, 0);
+    
+}
+
+.searchmobile{
+    position: relative;
+    color: #A2A2A2;
+    display:inline-block;
+    flex-direction: row;
+    background-color: #F5F5F5;
+    width: 393px;
+    height: 40px;
+    top: 11px;
+    border-radius: 20px;
+    Padding: 8px, 16px, 8px, 16px;
+    text-align: left 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 10px 6px;
+    left: 162px;
+    border-color: rgba(240, 248, 255, 0);
+    display: none;
+    
+}
+
+.buscar{
+    position: relative;
+    left: 75px;
+    top: 10px;
+    height: 40px;
+    width: 45px;
+    border-radius: 10px;
+    cursor:pointer;
+    background-color: rgba(255, 255, 255, 0);
+    color: #eaf2fd00;
+    border-color: #ffffff00;
+    
+}
+
+.imagem-lupa{
+    position: relative;
+    left: 115px;
+    top: 19px;
+}
+
+
+.botao-login{
+    position: relative;
+    left: 1200px;
+    bottom: 45px;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffff;
+    color:#2A7AE4;
+    border-color: #2A7AE4;
+    width: 182px;
+    height: 51px;
+    cursor: pointer;
+    
+}
+
+
+.imagem-hero{
+    position: relative;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 1210px;
+    height: 352px;
+    background-image:url('file:///C:/xampp/htdocs/alura/desafioalurafrontend/image/hero-sem-texto.svg');
+}
+
+.titulo-imagem
+{
+    position: relative;
+    display: inline-block;
+    flex:row;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    left: 173px;
+    font-weight: 700, bold;
+    font-size: 52px;
+    top: 170px;
+    
+}
+
+.texto-imagem
+{   top: 186px;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    position: relative;
+    left: 173px;
+    font-size: 22px;
+    
+
+}
+
+.button-ver-consoles
+{
+    top: 202px;
+
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+font-size: 16px;
+width: 131px;
+height: 55px;
+padding: 16px;
+gap: 10px;
+background-color: #2A7AE4;
+color: #ffffff;
+position: relative;
+left: 173px;
+cursor: pointer;
+}
+
+.botao-view-all{
+    position: relative;
+    left: 1107px;
+    color:#2A7AE4;
+    background-color:#ffffff00;
+    border-color: #ffffff00;
+    font-weight: 400;
+    
+}
+.botao-view-all:hover{
+border-bottom: 0.4px solid #f30000;
+}
+
+
+
+
+/*section*/
+.linha-de-produto01-topo{
+    width: 150px;
+    position: relative;
+    left: 100px;
+    
+}
+
+.titulo-produtos
+{ position: relative;
+   font-family: 'Raleway', sans-serif;
+   display: flex;
+   flex-direction: row;
+   font-weight:700, bold;
+   font-size: 32px;
+   top: 10px;
+}
+
+.linha-deproduto01-produtos{
+    display: flex;
+    
+}
+.imagens{
+    position: relative;
+    left: 85px;
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    cursor: pointer;
+    
+}
+.produtos{
+    display: flex;
+    flex-direction: column;
+}
+
+.preço-produto,.texto-produto{
+    position: relative;
+    left: 100px;
+
+}
+
+.preço-produto{
+    font-family: 'Raleway', sans-serif;
+    color:#464646;
+    font-weight: 700px,bold;
+    font-style: normal;
+    font-size: 16px;
+}
+.ver-produto{
+    position: relative;
+    left: 50px;
+    color: #2A7AE4;
+    width: 91px;
+    height: 19px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700, bold;
+    
+    
+}
+
+.box{
+    width: 1519px;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    background-color: #EAF2FD;
+}
+
+.links-finais{
+    position: relative;
+    left: 440px;
+    font-weight: 500,normal;
+    color: #464646;
+    line-height: 40px;
+    height: 234px;
+    width: 176px;
+    
+}
+
+.box-image{
+    position: relative;
+    top: 50px;
+    left: 152px;
+}
+
+
+.form{
+    width: 300px;
+    position: relative;
+    left: 728px;
+    bottom: 230px;
+    
+}
+
+.title-fale-conosco{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700,bold;
+    font-size: 16px;
+    line-height: 19px;    
+}
+
+.input-nome{
+    width: 560px;
+    height: 56px;
+    border-radius: 4px;
+    
+}
+
+.text-area{
+    position: relative;
+    top: 16px;
+    width: 560px;
+    height: 82px;
+    border-radius: 4px;
+    border-color: #eaf2fd00;
+    font-size: 20px;
+}
+
+.desenvolvido{
+    position: relative;
+    text-align: center;
+    top: 38px;
+    font-weight: 500,medium;
+}
+
+.preço-produto{
+    color: #000000;
+    font-weight: 900;
+}
+
+.ver-produto{
+    font-weight: 900;
+}
+.submit-text{
+    position:relative;
+    top: 30px;
+    width: 166px;
+    height: 51px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 400,regular;
+    font-style: normal;
+    font-size: 16px;
+    background-color: #2A7AE4;
+    color: white;
+}
+
+footer{
+    position: relative;
+    top: 30px;
+    height: 102px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 500,Medium;
+    font-style: normal;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*mobile*/
+@media screen and (max-width:360px){
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        display:grid;
+
+    }
+    main{
+        width: auto;
+    }
+
+    p, button{
+        font-family: 'Raleway', sans-serif;
+    }
+  
+
+    body{
+        width: auto;
+        font-size: 100%;
+        background-color: #E5E5E5;
+    }
+    
+    .cabeçalho{
+        background-color: #ffffff;
+        width: 1440px;
+    }
+    .topo-acima-da-imagem{
+        background-color: #ffffff;
+        width: 140px;
+    }
+    header .imagem-alura-geeks{
+        top: 30px;
+        
+        position: relative;
+        width: 360px;
+    }
+
+    .search{
+        width:80px;
+        height: 95px;
+        position: absolute;
+        bottom: 30px;
+        left: 1100px;
+        top: 67px;
+        display: none;
+    }
+
+
+
+    .searchmobile{
+        width:80px;
+        height: 95px;
+        position: absolute;
+        bottom: 30px;
+        left: 1100px;
+        top: 67px;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .botao-login{
+        position: absolute;
+        bottom: 450px;
+        left:  670px;
+        width: 300px;
+        height: 80px;
+        font-size: 64px;
+        top: 80px;
+    }
+
+    .imagem-lupa{
+        width: 30%;
+        position: absolute;
+        left: 1100px;
+        top: 65px;
+    }
+
+    .div-imagem-abaixo-do-topo{
+        position: relative;
+        right: 100px;
+        width: 00px;
+        border-image-width: 300px;
+    }
+
+    .imagem-hero{
+        position: relative;
+        right: 100px;
+        width: 1440px;
+        padding: 0px;
+        gap:0px;
+        
+        
+    
+        
+    }
+
+    .texto-imagem{
+        width: 1000px;
+        font-size: 44px;    }
+    .titulo-imagem{
+        width: 900px;
+        font-size: 64px;
+    }
+
+
+    
+
+/*BOX*/
+
+/*section*/
+.linha-deproduto01-produtos{
+    width:1420px;
+}
+.linha-deproduto01-produtos img{
+    width: 550px;
+}
+
+.linha-de-produto01{
+    left: 0%;
+    align-items: center;
+    width: 00px;
+    position: relative;
+}
+
+.linha-deproduto01-produtos{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagens img{
+    width: 300px;
+ 
+}
+
+.ver-produto{
+    position:relative;
+    height: 200px;
+}
+
+
+
+.preço-produto,.ver-produto,.texto-produto,.botao-view-all,.titulo-produtos{
+    font-size: 60px;
+}
+.titulo-produtos{
+    width: 270px;
+}
+
+.botao-view-all{
+  
+    position: relative;
+    right: 3000px;
+    width: 200px;
+}
+
+.preço-produto{
+    color: #000000;
+    font-weight: 900;
+}
+
+.ver-produto{
+    font-weight: 900;
+}
+.texto-produto,.ver-produto,.preço-produto{
+   font-size: 40px;
+   width: 300px;
+}
+
+#produto{
+    display: none;
+}
+
+
+
+.box{
+    align-items: center;
+    width: 1440px;
+    height: 3500px;
+    top: 300px;
+}
+
+.box-image{
+    top: 60px;
+    position: relative;
+    width: 900px;
+    bottom: 300px;
+    left: 350px;
+}
+.links-finais{
+    font-size: 90px;
+    width: 850px;  
+    top: 180px;
+    position: relative;
+    
+}
+ .imagem-alura-geeks{
+        top: 30px;    
+        position: relative;
+        width: 360px;
+    }
+
+
+
+
+    .form{
+        width: 300px;
+        height: 300px;
+    }
+    .title-fale-conosco{
+        font-size: 90px;
+        position: relative;
+        top: 500px;
+        right: 700px;
+    }
+
+
+    .label-float{
+        position: relative;
+        top: 600px;
+        right: 700px;
+        font-size: 60px;
+    }
+    .input-nome{
+        height: 256px;
+        width: 1400px;
+        position: relative;
+        
+    }
+    .text-area{
+        height: 256px;
+        width: 1400px;
+        position: relative;
+        font-size: 60px;}
+    .submit-text{
+        top: 700px;
+        width: 800px;
+        height: 200px;
+        font-size: 80px;
+        right: 727.8px;
+    }
+
+
+
+footer
+{
+    width: 1440px;
+    height: 200px;
+    font-size: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*LABEL*/
+
+.label-float{
+    position: relative;
+padding-top:6px;
+}
+
+.label-float input{
+  border: 0;
+  border-bottom: 2px solid lightgrey;
+  outline: none;
+  min-width: 180px;
+  font-size: 60PX;
+  transition: all .3s ease-out;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -webkit-appearance:none;
+  border-radius: 0;
+}
+
+.label-float input:focus{
+  border-bottom: 2px solid #3db239;
+}
+
+.label-float input::placeholder{
+  color:transparent;
+}
+
+.label-float label{
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: all .3s ease-out;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+}
+
+.label-float input:focus{
+  color: rgb(0, 0, 0);
+}
+
+
+.label-float input:required:invalid + label{
+  color: rgb(114, 94, 94);
+}
+
+
+.label-float input:focus + label,
+.label-float input:not(:placeholder-shown) + label{
+  font-size: 60px;
+  margin-top: 0;
+  color: #25b338;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

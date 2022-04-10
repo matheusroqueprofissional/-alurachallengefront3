@@ -1,0 +1,649 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: #E5E5E5;
+}
+
+
+.topo-acima-da-imagem{
+    background-color: #ffffff;
+    width: 100%;
+    height: 115px;
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1519px;
+    padding: 24px;
+}
+
+.imagem-alura-geeks{
+    position: relative;
+    display: inline-block;
+    flex-direction: row;
+    top: 32px;
+    left: 152px;
+}
+
+.search{
+    position: relative;
+    color: #A2A2A2;
+    display:inline-block;
+    flex-direction: row;
+    background-color: #F5F5F5;
+    width: 393px;
+    height: 40px;
+    top: 11px;
+    border-radius: 20px;
+    Padding: 8px, 16px, 8px, 16px;
+    text-align: left 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 10px 6px;
+    left: 162px;
+    
+}
+
+.buscar{
+    position: relative;
+    left: 75px;
+    top: 10px;
+    height: 40px;
+    width: 45px;
+    border-radius: 10px;
+    cursor:pointer;
+    background-color: rgba(255, 255, 255, 0);
+    color: #eaf2fd00;
+    border-color: #ffffff00;
+    
+}
+
+.imagem-lupa{
+    position: relative;
+    left: 115px;
+    top: 19px;
+}
+
+
+.botao-login{
+    position: relative;
+    left: 1000px;
+    bottom: 45px;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffff;
+    color:#2A7AE4;
+    border-color: #2A7AE4;
+    width: 182px;
+    height: 51px;
+    cursor: pointer;
+    
+}
+
+/*fim do header*/
+
+/*inicio do main*/
+
+.formulario{
+    top: 91px;
+    position: relative;
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    left: 550px;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    
+}
+
+.input{
+    background-color: white;
+    
+    
+}
+.input-submit{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    right: 17px;
+    background-color: #2A7AE4;
+    color: white;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.input-submit:hover{
+    background-color: #1f58a3;
+}
+
+input{
+    width: 423px;
+    border-radius: 4px;
+    height: 63px;
+    border-color: #2a7be400;
+    font-weight: 400,regular;
+    font-style: normal;
+    font-size: 16px;
+}
+.titulo{
+    color: #464646;
+    position: relative;
+    left: 130px;
+    width: 118px;
+    height: 21px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700,bold;
+    font-style: normal;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*fim do main*/
+
+
+
+
+/*inicio do footer*/
+.box{
+    width: 1519px;
+    display: inline-block;
+    position: relative;
+    top: 270px;
+    background-color: #EAF2FD;
+}
+
+.links-finais{
+    position: relative;
+    left: 440px;
+    font-weight: 500,normal;
+    color: #464646;
+    line-height: 40px;
+    height: 234px;
+    width: 176px;
+    
+}
+
+.box-image{
+    position: relative;
+    top: 50px;
+    left: 152px;
+}
+.form-2{width: 300px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 0px;
+    bottom: 0px;}
+
+.form-2{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 729px;
+    bottom: 230px;
+    
+}
+
+.title-fale-conosco{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700,bold;
+    font-size: 16px;
+    line-height: 19px;    
+}
+
+.input-nome{
+    width: 560px;
+    height: 56px;
+    border-radius: 4px;
+    
+}
+
+.text-area{
+    position: relative;
+    top: 16px;
+    width: 560px;
+    height: 82px;
+    border-radius: 4px;
+    border-color: #eaf2fd00;
+    font-size: 20px;
+}
+
+.desenvolvido{
+    position: relative;
+    text-align: center;
+    top: 38px;
+    font-weight: 500,medium;
+}
+
+.submit-text{
+    position:relative;
+    top: 30px;
+    width: 166px;
+    height: 51px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 400,regular;
+    font-style: normal;
+    font-size: 16px;
+    background-color: #2A7AE4;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 00px;
+    top: 200px;
+    height: 102px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 500,Medium;
+    font-style: normal;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*label*/
+
+.label-float{
+    position: relative;
+padding-top: 21px;
+}
+
+.label-float input{
+  border: 0;
+  border-bottom: 2px solid lightgrey;
+  outline: none;
+  min-width: 180px;
+  font-size: 26px;
+  transition: all .3s ease-out;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -webkit-appearance:none;
+  border-radius: 0;
+}
+
+.label-float input:focus{
+  border-bottom: 2px solid #3951b2;
+}
+
+.label-float input::placeholder{
+  color:transparent;
+}
+
+.label-float label{
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: all .3s ease-out;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+}
+
+
+
+
+.label-float input:focus + label,
+.label-float input:not(:placeholder-shown) + label{
+  font-size: 20px;
+  margin-top: 0;
+  color: #3951b2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*mobile*/
+
+
+
+
+
+
+@media screen and (max-width:360px){
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        display:grid;
+
+    }
+    main{
+        width: auto;
+    }
+
+    p, button{
+        font-family: 'Raleway', sans-serif;
+    }
+  
+
+    body{
+        width: auto;
+        font-size: 100%;
+        background-color: #E5E5E5;
+    }
+    
+    .cabeçalho{
+        background-color: #ffffff;
+        width: 1440px;
+    }
+    .topo-acima-da-imagem{
+        background-color: #ffffff;
+        width: 140px;
+    }
+    header .imagem-alura-geeks{
+        top: 30px;
+        
+        position: relative;
+        width: 360px;
+    }
+
+    .search{
+        width:80px;
+        height: 95px;
+        position: absolute;
+        bottom: 30px;
+        left: 1100px;
+        top: 67px;
+    }
+
+    .botao-login{
+        position: absolute;
+        bottom: 450px;
+        left:  670px;
+        width: 300px;
+        height: 80px;
+        font-size: 64px;
+        top: 80px;
+    }
+
+    .imagem-lupa{
+        width: 30%;
+        position: absolute;
+        left: 1100px;
+        top: 65px;
+    }
+
+
+
+
+
+
+        /*main*/
+        .formulario{
+            width: 900px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .box{
+        align-items: center;
+        width: 1440px;
+        height: 3500px;
+        top: 300px;
+    }
+    
+    .box-image{
+        top: 60px;
+        position: relative;
+        width: 900px;
+        bottom: 300px;
+        left: 350px;
+    }
+    .links-finais{
+        font-size: 90px;
+        width: 850px;  
+        top: 180px;
+        position: relative;
+        
+    }
+     .imagem-alura-geeks{
+            top: 30px;    
+            position: relative;
+            width: 360px;
+        }
+    
+    
+    
+    
+        .form{
+            width: 300px;
+            height: 300px;
+        }
+        .title-fale-conosco{
+            font-size: 90px;
+            position: relative;
+            top: 500px;
+            right: 700px;
+        }
+    
+    
+        .label-float{
+            position: relative;
+            top: 600px;
+            right: 700px;
+            font-size: 60px;
+        }
+        .input-nome{
+            height: 256px;
+            width: 1400px;
+            position: relative;
+            
+        }
+        .text-area{
+            height: 256px;
+            width: 1400px;
+            position: relative;
+            font-size: 60px;}
+        .submit-text{
+            top: 700px;
+            width: 800px;
+            height: 200px;
+            font-size: 80px;
+            right: 727.8px;
+        }
+    
+    
+    
+    footer
+    {
+        width: 1440px;
+        font-size: 60px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*LABEL*/
+    
+    .label-float{
+        position: relative;
+    padding-top:6px;
+    }
+    
+    .label-float input{
+      border: 0;
+      border-bottom: 2px solid lightgrey;
+      outline: none;
+      min-width: 180px;
+      font-size: 60PX;
+      transition: all .3s ease-out;
+      -webkit-transition: all .3s ease-out;
+      -moz-transition: all .3s ease-out;
+      -webkit-appearance:none;
+      border-radius: 0;
+    }
+    
+    .label-float input:focus{
+      border-bottom: 2px solid #3db239;
+    }
+    
+    .label-float input::placeholder{
+      color:transparent;
+    }
+    
+    .label-float label{
+      pointer-events: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-top: 13px;
+      transition: all .3s ease-out;
+      -webkit-transition: all .3s ease-out;
+      -moz-transition: all .3s ease-out;
+    }
+    
+    .label-float input:focus{
+      color: rgb(0, 0, 0);
+    }
+    
+    
+    .label-float input:required:invalid + label{
+      color: rgb(114, 94, 94);
+    }
+    
+    
+    .label-float input:focus + label,
+    .label-float input:not(:placeholder-shown) + label{
+      font-size: 60px;
+      margin-top: 0;
+      color: #25b338;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+  }
